@@ -1,6 +1,6 @@
 # Quantum Fourier Transform
 
-The **Quantum Fourier Transform** along with the **phase estimation algorithm** are the key components to Shor's factoring algorithm and many other quantum algorithms that can be used to solve problems such as factoring numbers. Due to its application to cryptography, Shor's algorithm and the Quantum Fourier Transform have been the subject of extensive research. In particular it is exponentially faster than any known classical algorithm and therefore poses a potential threat to RSA public key cryptography. A paper published by Google ["How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits"](https://arxiv.org/pdf/1905.09749.pdf), shows one way to do this. For an overview see the [MIT Technology Review Article](https://www.technologyreview.com/2019/05/30/65724/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/). 
+The **Quantum Fourier Transform** along with the **phase estimation algorithm** are the key components to Shor's factoring algorithm and many other quantum algorithms that can be used to solve problems such as factoring numbers. Due to its application to cryptography, Shor's algorithm and the Quantum Fourier Transform have been the subject of extensive research. In particular, it is exponentially faster than any known classical algorithm and therefore poses a potential threat to RSA public key cryptography. A paper published by Google ["How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits"](https://arxiv.org/pdf/1905.09749.pdf), shows one way to do this. For a general overview of the method, see the [MIT Technology Review Article](https://www.technologyreview.com/2019/05/30/65724/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/). 
 
 ## "Quantum Supremacy"
 
@@ -16,7 +16,7 @@ This quantum circuit diagram was rendered using [quantikz](https://ctan.org/pkg/
 
 ## Quantum Fourier Transform in Qiskit
 
-The basic Qiskit Code to generate a Quantum Fourier Transfor on four qubits is:
+The basic Qiskit Code to generate a Quantum Fourier Transform on four qubits is:
 
 ```python
 from qiskit import *
