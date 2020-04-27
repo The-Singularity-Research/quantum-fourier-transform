@@ -12,6 +12,7 @@ The **Phase Estimation Circuit** on four qubits can be seen below.
 
 ![Phase Estimation Circuit](phase_estimation2.png)
 
+This quantum circuit diagram was rendered using [quantikz](https://ctan.org/pkg/quantikz?lang=en), a TikZ library. If you are a Donald Knuth fan and love LaTeX too, check it out! 
 
 ## Quantum Fourier Transform in Qiskit
 
