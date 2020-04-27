@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Quantum Fourier Transform
 
-You can use the [editor on GitHub](https://github.com/The-Singularity-Research/quantum-fourier-transform/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The **Quantum Fourier Transform** along with the **phase estimation algorithm** are the key components to Shor's factoring algorithm and many other quantum algorithms that can be used to solve problems such as factoring numbers. Due to its application to cryptography, Shor's algorithm and the Quantum Fourier Transform have been the subject of extensive research. In particular it is exponentially faster than any known classical algorithm and therefore poses a potential threat to RSA public key cryptography. A paper published by Google ["How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits"](https://arxiv.org/pdf/1905.09749.pdf), shows one way to do this. For an overview see the [MIT Technology Review Article](https://www.technologyreview.com/2019/05/30/65724/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## "Quantum Supremacy"
 
-### Markdown
+With recent advances in quantum computing and Google's claims of ["Quantum Supremecy"](https://www.nature.com/articles/s41586-019-1666-5), such algorithms may be implemented much sooner than originally expected. Another important fact to keep in mind is that finding efficient ways to simulate such algorithms may provide a way to run them using classical computers even before the quantum technology is more wide spread. This interactive notebook covers the Quantum Fourier Transform, the Phase Estimation Algorithm, and Shor's Algorithm. It shows an implementation of these algorithms in IBM's Qiskit, and has exercises and examples for practice. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## The Notebook
 
-```markdown
-Syntax highlighted code block
+[Interactive Jupyter Notebook on Binder](https://mybinder.org/v2/gh/The-Singularity-Research/quantum-fourier-transform/8d8c46894fa7b00bf12bd2321cbea4ee31a2a01a?filepath=quantum_fourier.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/quantum-fourier-transform/master?filepath=quantum_fourier.ipynb)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/The-Singularity-Research/quantum-fourier-transform/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
