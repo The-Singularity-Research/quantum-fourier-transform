@@ -19,6 +19,7 @@ The basic Qiskit Code to generate a Quantum Fourier Transfor on four qubits is:
 
 ```python
 from qiskit import *
+%matplotlib inline
 
 q = QuantumRegister(4)
 
